@@ -1,0 +1,70 @@
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/appsettings.Development.json
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/appsettings.json
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.deps.json
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.runtimeconfig.json
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.runtimeconfig.dev.json
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.dll
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.pdb
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.Views.dll
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.Views.pdb
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.csprojAssemblyReference.cache
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorAssemblyInfo.cache
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorAssemblyInfo.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.AssemblyInfoInputs.cache
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.AssemblyInfo.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.TagHelpers.input.cache
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.TagHelpers.output.cache
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorCoreGenerate.cache
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/ControleAcesso/Usuario.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.cshtml.g.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorTargetAssemblyInfo.cache
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorTargetAssemblyInfo.cs
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.Views.pdb
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.dll
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.pdb
+C:/Desenvolvimento/Maktub/PortalMaktub/Maktub.Portal - 2.1/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.csproj.CopyComplete
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/appsettings.Development.json
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/appsettings.json
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Properties/launchSettings.json
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.deps.json
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.runtimeconfig.json
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.runtimeconfig.dev.json
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.dll
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.pdb
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.Views.dll
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/bin/Debug/netcoreapp2.1/Maktub.Portal.Web.Views.pdb
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.csprojAssemblyReference.cache
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorAssemblyInfo.cache
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorAssemblyInfo.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.AssemblyInfoInputs.cache
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.AssemblyInfo.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.TagHelpers.input.cache
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.TagHelpers.output.cache
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorCoreGenerate.cache
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/ControleAcesso/Usuario.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/About.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/Contact.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/Index.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Home/Privacy.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/Error.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_CookieConsentPartial.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/_ViewImports.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorTargetAssemblyInfo.cache
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.RazorTargetAssemblyInfo.cs
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.Views.pdb
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.dll
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.pdb
+/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/Debug/netcoreapp2.1/Maktub.Portal.Web.csproj.CopyComplete

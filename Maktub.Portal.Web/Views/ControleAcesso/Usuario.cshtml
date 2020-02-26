@@ -1,0 +1,159 @@
+﻿@{
+    ViewData["Title"] = "Usuários";
+}
+
+@section styles {
+
+    <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
+    
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Usuários</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                        <li class="breadcrumb-item active">Usuários</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    <!-- Main content -->
+    <div class="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="card col-lg-12">
+                    <div class="card-header">
+                        <h3 class="card-title">Lista de Usuários</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body">
+                        <table id="example2" class="table table-bordered table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Nome</th>
+                                    <th>Data Nascimento</th>
+                                    <th>Login</th>
+                                    <th>Email</th>
+                                    <th>Ativo</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Angelica Ramos</td>
+                                    <td>13/11/1968</td>
+                                    <td>angelicar</td>
+                                    <td>angelicar@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Bruno Nash</td>
+                                    <td>14/08/1999</td>
+                                    <td>brunona</td>
+                                    <td>brunona@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Donna Snider</td>
+                                    <td>02/06/1991</td>
+                                    <td>donnasn</td>
+                                    <td>donnasn@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Jennifer Acosta</td>
+                                    <td>09/06/1988</td>
+                                    <td>jenniferac</td>
+                                    <td>jenniferac@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Paulo Nascimento</td>
+                                    <td>14/07/1971</td>
+                                    <td>paulona</td>
+                                    <td>paulona@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Michael Silva</td>
+                                    <td>27/02/1983</td>
+                                    <td>michaelsi</td>
+                                    <td>michaelsi@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Sonia Costa</td>
+                                    <td>03/09/1974</td>
+                                    <td>soniaco</td>
+                                    <td>soniaco@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Sergio Batista</td>
+                                    <td>18/12/1982</td>
+                                    <td>sergioba</td>
+                                    <td>sergioba@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+                                <tr>
+                                    <td>Tatiana Fitzpatrick</td>
+                                    <td>07/07/1974</td>
+                                    <td>tatianafi</td>
+                                    <td>tatianafi@maktub.com</td>
+                                    <td>Sim</td>
+                                </tr>
+
+                            </tbody>
+                            @*<tfoot>
+                                    <tr>
+                                        <th>Rendering engine</th>
+                                        <th>Browser</th>
+                                        <th>Platform(s)</th>
+                                        <th>Engine version</th>
+                                        <th>CSS grade</th>
+                                    </tr>
+                                </tfoot>*@
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.content -->
+        </div>
+        <!-- /.content-wrapper -->
+    </div>
+    <!-- /.content -->
+</div>
+<!-- /.content-wrapper -->
+<!-- DataTables -->
+
+@section scripts {
+    
+    <script src="~/lib/jquery.dataTables.js"></script>
+    <script src="~/lib/dataTables.bootstrap4.js"></script>
+    <script>
+        $(function () {
+            $("#example1").DataTable();
+            $('#example2').DataTable({
+                "paging": true,
+                "lengthChange": false,
+                "searching": false,
+                "ordering": true,
+                "info": true,
+                "autoWidth": false,
+            });
+        });
+    </script>
+}
+
+
