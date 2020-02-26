@@ -12,11 +12,7 @@
           <Node name="Maktub.Portal" expanded="True">
             <Node name="Maktub.Portal.Web" expanded="True">
               <Node name="Controllers" expanded="True" />
-              <Node name="Views" expanded="True">
-                <Node name="Home" expanded="True">
-                  <Node name="Index.cshtml" selected="True" />
-                </Node>
-              </Node>
+              <Node name="Views" expanded="True" />
             </Node>
           </Node>
         </State>
