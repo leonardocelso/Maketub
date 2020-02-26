@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {}
+    "/Users/danilofogaca/Documents/GitHub/maketub-2.1/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {}
   },
   "projects": {
-    "/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {
+    "/Users/danilofogaca/Documents/GitHub/maketub-2.1/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
+        "projectUniqueName": "/Users/danilofogaca/Documents/GitHub/maketub-2.1/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
         "projectName": "Maktub.Portal.Web",
-        "projectPath": "/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
+        "projectPath": "/Users/danilofogaca/Documents/GitHub/maketub-2.1/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
         "packagesPath": "/Users/danilofogaca/.nuget/packages/",
-        "outputPath": "/Users/danilofogaca/Desktop/Maktub.Portal/Maktub.Portal.Web/obj/",
+        "outputPath": "/Users/danilofogaca/Documents/GitHub/maketub-2.1/Maktub.Portal.Web/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
