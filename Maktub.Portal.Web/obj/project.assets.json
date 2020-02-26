@@ -11880,28 +11880,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/danilofogaca/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\Jaqueline\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/danilofogaca/Documents/GitHub/maketub-2.1/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Jaqueline\\Documents\\GitHub\\Maketub\\Maktub.Portal.Web\\Maktub.Portal.Web.csproj",
       "projectName": "Maktub.Portal.Web",
-      "projectPath": "/Users/danilofogaca/Documents/GitHub/maketub-2.1/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
-      "packagesPath": "/Users/danilofogaca/.nuget/packages/",
-      "outputPath": "/Users/danilofogaca/Documents/GitHub/maketub-2.1/Maktub.Portal.Web/obj/",
+      "projectPath": "C:\\Users\\Jaqueline\\Documents\\GitHub\\Maketub\\Maktub.Portal.Web\\Maktub.Portal.Web.csproj",
+      "packagesPath": "C:\\Users\\Jaqueline\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Jaqueline\\Documents\\GitHub\\Maketub\\Maktub.Portal.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "/Users/danilofogaca/.config/NuGet/NuGet.Config"
+        "C:\\Users\\Jaqueline\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -11946,7 +11949,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
