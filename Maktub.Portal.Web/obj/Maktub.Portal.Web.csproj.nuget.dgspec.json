@@ -1,31 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jaqueline\\Documents\\GitHub\\Maketub\\Maktub.Portal.Web\\Maktub.Portal.Web.csproj": {}
+    "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jaqueline\\Documents\\GitHub\\Maketub\\Maktub.Portal.Web\\Maktub.Portal.Web.csproj": {
+    "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jaqueline\\Documents\\GitHub\\Maketub\\Maktub.Portal.Web\\Maktub.Portal.Web.csproj",
+        "projectUniqueName": "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
         "projectName": "Maktub.Portal.Web",
-        "projectPath": "C:\\Users\\Jaqueline\\Documents\\GitHub\\Maketub\\Maktub.Portal.Web\\Maktub.Portal.Web.csproj",
-        "packagesPath": "C:\\Users\\Jaqueline\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jaqueline\\Documents\\GitHub\\Maketub\\Maktub.Portal.Web\\obj\\",
+        "projectPath": "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
+        "packagesPath": "/Users/viniciusyamaguti/.nuget/packages/",
+        "outputPath": "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jaqueline\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/viniciusyamaguti/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,7 +67,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }

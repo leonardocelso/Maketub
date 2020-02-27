@@ -1,0 +1,85 @@
+﻿@{
+    ViewData["Title"] = "Novo Cliente";
+}
+
+@section styles {
+
+    <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
+    
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Novo Tipo de Serviço</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                        <li class="breadcrumb-item active">Novo Tipo de Serviço</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+    <script>
+        function adicionar() {
+            var ing = document.getElementById("ingrediente").value;
+            var lista  = document.getElementById("lista").innerHTML;
+            lista = lista +"<option>"+ing+"</option>";
+
+        document.getElementById("lista").innerHTML = lista;
+        }   
+
+
+        window.onload = function ()
+        {   
+            var select = document.getElementById('lista');
+            var delButton = document.getElementById('delete');
+
+            function remove()
+            {
+                value = select.selectedIndex;
+                select.removeChild(select[value]);
+            }
+
+            delButton.onclick = remove;    
+        }
+    </script>
+
+    <div>
+        <div class="form-row">
+            <p class="col-10 ml-2">
+                <spam class="ml-2">Nome do Técnico:</spam><input type="text" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row justify-content-center">
+            <div class="col-2">
+                <select id="ingrediente" class="form-control">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                </select>
+            </div>
+            <div class="col-1">
+                <input type="button" onclick="adicionar()" value="Adicionar" class="btn-primary mt-1">
+            </div>
+            <div class="col-1">
+                <input type="button" id="delete" value="Remover" class="btn-primary mt-1">
+            </div>
+            <div class="col-2 mb-2">
+                <select id="lista" class="form-control">
+
+                </select>
+            </div>
+        </div>
+        <p class="col-10 ml-2">
+            <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
+        </p>
+    </div>
+</div>
