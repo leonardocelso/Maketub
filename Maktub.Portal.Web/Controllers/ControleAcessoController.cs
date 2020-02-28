@@ -8,12 +8,27 @@ namespace Maktub.Portal.Web.Controllers
 {
     public class ControleAcessoController : Controller
     {
+        public IActionResult Usuario()
+        {
+            return View();
+        }
+
         public IActionResult FormUsuario()
         {
             return View();
         }
 
+        public IActionResult Perfil()
+        {
+            return View();
+        }
+
         public IActionResult FormPerfil()
+        {
+            return View();
+        }
+
+        public IActionResult Modulo()
         {
             return View();
         }
@@ -33,7 +48,18 @@ namespace Maktub.Portal.Web.Controllers
             return View();
         }
 
+        public IActionResult FormBanco()
+        {
+            return View();
+        }
+
+
         public IActionResult FormDadosBanco()
+        {
+            return View();
+        }
+
+        public IActionResult FormTipoConta()
         {
             return View();
         }
@@ -43,7 +69,17 @@ namespace Maktub.Portal.Web.Controllers
             return View();
         }
 
+        public IActionResult Cliente()
+        {
+            return View();
+        }
+
         public IActionResult FormCliente()
+        {
+            return View();
+        }
+
+        public IActionResult Filial()
         {
             return View();
         }
@@ -69,6 +105,11 @@ namespace Maktub.Portal.Web.Controllers
         }
 
         public IActionResult FormServicoTecnico()
+        {
+            return View();
+        }
+
+        public IActionResult TipoServico()
         {
             return View();
         }

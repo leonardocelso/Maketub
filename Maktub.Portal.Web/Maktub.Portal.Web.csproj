@@ -15,4 +15,8 @@
   <ItemGroup>
     <None Remove="Views\ControleAcesso\EmptyHtmlFile.html" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\ControleAcesso\Banco.cshtml" />
+    <Content Remove="Views\ControleAcesso\FormTipoServico.cshtml" />
+  </ItemGroup>
 </Project>

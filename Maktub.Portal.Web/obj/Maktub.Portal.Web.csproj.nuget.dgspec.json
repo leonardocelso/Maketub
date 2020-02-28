@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {}
+    "/Users/viniciusyamaguti/Documents/GitHub/Maketub/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {}
   },
   "projects": {
-    "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {
+    "/Users/viniciusyamaguti/Documents/GitHub/Maketub/Maktub.Portal.Web/Maktub.Portal.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
+        "projectUniqueName": "/Users/viniciusyamaguti/Documents/GitHub/Maketub/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
         "projectName": "Maktub.Portal.Web",
-        "projectPath": "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
+        "projectPath": "/Users/viniciusyamaguti/Documents/GitHub/Maketub/Maktub.Portal.Web/Maktub.Portal.Web.csproj",
         "packagesPath": "/Users/viniciusyamaguti/.nuget/packages/",
-        "outputPath": "/Users/viniciusyamaguti/Downloads/Maketub-master/Maktub.Portal.Web/obj/",
+        "outputPath": "/Users/viniciusyamaguti/Documents/GitHub/Maketub/Maktub.Portal.Web/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
