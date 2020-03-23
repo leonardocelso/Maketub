@@ -3,11 +3,9 @@
 }
 
 @section styles {
-
-    <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
-    
+    <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />    
+    <link rel="stylesheet" href="~/lib/fontawesome-free/css/fontawesome.css"  />
 }
-
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -17,9 +15,10 @@
                 <div class="col-sm-6">
                     <h1 class="m-0 text-dark">Usuários</h1>
                 </div><!-- /.col -->
-                <div class="col-sm-6">
+                <div class="col-sm-6">                    
                     <ol class="breadcrumb float-sm-right">
-                        <li class="breadcrumb-item"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormCliente" class="nav-link">Novo Cliente</a></li>
+                        <li class="breadcrumb-item"><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li class="breadcrumb-item active">Usuários</li>
                     </ol>
                 </div><!-- /.col -->
             </div><!-- /.row -->
@@ -44,6 +43,7 @@
                                     <th>Login</th>
                                     <th>Email</th>
                                     <th>Ativo</th>
+                                    <th>Ações</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -53,6 +53,11 @@
                                     <td>angelicar</td>
                                     <td>angelicar@maktub.com</td>
                                     <td>Sim</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark ">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Bruno Nash</td>
@@ -60,6 +65,11 @@
                                     <td>brunona</td>
                                     <td>brunona@maktub.com</td>
                                     <td>Sim</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Donna Snider</td>
@@ -67,6 +77,11 @@
                                     <td>donnasn</td>
                                     <td>donnasn@maktub.com</td>
                                     <td>Sim</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Jennifer Acosta</td>
@@ -74,6 +89,11 @@
                                     <td>jenniferac</td>
                                     <td>jenniferac@maktub.com</td>
                                     <td>Sim</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Paulo Nascimento</td>
@@ -81,6 +101,11 @@
                                     <td>paulona</td>
                                     <td>paulona@maktub.com</td>
                                     <td>Sim</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Michael Silva</td>
@@ -88,6 +113,11 @@
                                     <td>michaelsi</td>
                                     <td>michaelsi@maktub.com</td>
                                     <td>Sim</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Sonia Costa</td>
@@ -95,32 +125,37 @@
                                     <td>soniaco</td>
                                     <td>soniaco@maktub.com</td>
                                     <td>Sim</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Sergio Batista</td>
                                     <td>18/12/1982</td>
                                     <td>sergioba</td>
                                     <td>sergioba@maktub.com</td>
-                                    <td>Sim</td>
+                                    <td>Não</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
                                 <tr>
                                     <td>Tatiana Fitzpatrick</td>
                                     <td>07/07/1974</td>
                                     <td>tatianafi</td>
                                     <td>tatianafi@maktub.com</td>
-                                    <td>Sim</td>
+                                    <td>Não</td>
+                                    <td>
+                                        <div class="badge badge-info"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Novo <span class="fas fa-file text-white"></span></a></div>
+                                        <div class="badge badge-warning text-dark"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-dark">Editar <span class="fas fa-edit text-dark"></span></a></div>
+                                        <div class="badge badge-success"><a asp-area="" asp-controller="ControleAcesso" asp-action="FormUsuario" asp-fragment="" class="text-white">Detalhes <span class="fas fa-info-circle class=" text-white""></span></a></div>
+                                    </td>
                                 </tr>
-
-                            </tbody>
-                            @*<tfoot>
-                                    <tr>
-                                        <th>Rendering engine</th>
-                                        <th>Browser</th>
-                                        <th>Platform(s)</th>
-                                        <th>Engine version</th>
-                                        <th>CSS grade</th>
-                                    </tr>
-                                </tfoot>*@
+                            </tbody>                            
                         </table>
                     </div>
                     <!-- /.card-body -->
@@ -137,19 +172,34 @@
 <!-- DataTables -->
 
 @section scripts {
-    
+
     <script src="~/lib/jquery.dataTables.js"></script>
     <script src="~/lib/dataTables.bootstrap4.js"></script>
     <script>
         $(function () {
             $("#example1").DataTable();
             $('#example2').DataTable({
-                "paging": true,
-                "lengthChange": false,
-                "searching": false,
-                "ordering": true,
-                "info": true,
-                "autoWidth": false,
+                "language": {
+                    "emptyTable": "Não há registros",
+                    "info": "Mostrando _START_ a _END_ de _TOTAL_ Registros",
+                    "infoEmpty": "Mostrando 0 a 0 de 0 Registros",
+                    "infoFiltered": "(Filtrando de _MAX_ total Registros)",
+                    "infoPostFix": "",
+                    "thousands": ",",
+                    "lengthMenu": "Mostrar _MENU_ Registros",
+                    "loadingRecords": "Carregando...",
+                    "processing": "Processando...",
+                    "search": "Busca:",
+                    "zeroRecords": "Nenhum registro foi encontrado",
+                    "paginate": {
+                        "first": "Primeira",
+                        "last": "Última",
+                        "next": "Pr&oacutexima",
+                        "previous": "Anterior"
+                    },
+                },
+                "order": [[0, "desc"]], lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "Todos"]],
+                dom: "<'row mai-datatable-header'<'col-sm-6'l><'col-sm-6 text-right'B>><'row mai-datatable-body'<'col-sm-12'tr>><'row mai-datatable-footer'<'col-sm-5'i><'col-sm-7'p>>"
             });
         });
     </script>

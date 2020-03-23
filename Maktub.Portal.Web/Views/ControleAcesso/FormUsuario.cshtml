@@ -1,13 +1,10 @@
 ﻿@{
-    ViewData["Title"] = "Novo Cliente";
+    ViewData["Title"] = "Novo Usuário";
 }
-
 @section styles {
-
     <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
-    
+    <link rel="stylesheet" href="~/lib/fontawesome-free/css/fontawesome.css" />
 }
-
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -26,90 +23,119 @@
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
     </div>
-
-
-
-    <div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Nome:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Sobrenome:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Data de Nascimento:</spam><input type="date" class="form-control form-control-sm ml-2"/>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">CEP:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-10 ml-2">
-                <spam class="ml-2">Logradouro:</spam><input type="text" class="form-control form-control-sm ml-2">
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Número:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Complemento:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Estado:</spam><select class="form-control form-control-sm ml-2">
-                                                    <option> </option>   
-                                                 </select>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Telefone Fixo:</spam><input type="tel" class="form-control form-control-sm ml-2"/>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Telefone Celular:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">CPF:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">RG:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Gênero:</spam><select class="form-control form-control-sm ml-2">
-                                                    <option> </option>
-                                                    <option>Feminino</option>
-                                                    <option>Masculino</option>
-                                                 </select>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">E-mail:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Login:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Senha:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Perfil de acesso</spam><select class="form-control form-control form-control-sm ml-2">
-                                                            <option> </option>
-                                                          </select>
-            </p>
-            <p class="col-5 ml-3 pt-4">
-                <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
-            </p>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="card card-default">
+                <div class="card-header">
+                    <h3 class="card-title">Informações</h3>
+                </div>
+                <div class="form-row">
+                    <p class="col-2 ml-2">
+                        <spam class="ml-2">Nome:</spam><input type="text" class="form-control form-control-sm ml-2" />
+                    </p>
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">Sobrenome:</spam><input type="text" class="form-control form-control-sm ml-2" />
+                    </p>
+                    <p class="col-2 ml-2">
+                        <spam class="ml-2">Data de Nascimento:</spam><input type="date" class="form-control form-control-sm ml-2" />
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="col-2 ml-2">
+                        <spam class="ml-2">CEP:</spam><input type="number" class="form-control form-control-sm ml-2" />
+                    </p>
+                    <p class="col-6 ml-2">
+                        <spam class="ml-2">Endereço:</spam><input type="text" class="form-control form-control-sm ml-2">
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="col-2 ml-2">
+                        <spam class="ml-2">Número:</spam><input type="number" class="form-control form-control-sm ml-2" />
+                    </p>
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">Complemento:</spam><input type="text" class="form-control form-control-sm ml-2" />
+                    </p>
+                    <p class="col-2 ml-2">
+                        <spam class="ml-2">Estado:</spam>
+                        <select class="form-control form-control-sm ml-2">
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">Telefone Fixo:</spam><input type="tel" class="form-control form-control-sm ml-2" />
+                    </p>
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">Telefone Celular:</spam><input type="number" class="form-control form-control-sm ml-2" />
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">CPF:</spam><input type="number" class="form-control form-control-sm ml-2" />
+                    </p>
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">RG:</spam><input type="text" class="form-control form-control-sm ml-2" />
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="col-2 ml-2">
+                        <spam class="ml-2">Gênero:</spam><select class="form-control form-control-sm ml-2">
+                            <option> </option>
+                            <option>Feminino</option>
+                            <option>Masculino</option>
+                        </select>
+                    </p>
+                    <p class="col-6 ml-2">
+                        <spam class="ml-2">E-mail:</spam><input type="text" class="form-control form-control-sm ml-2" />
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">Login:</spam><input type="text" class="form-control form-control-sm ml-2" />
+                    </p>
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">Senha:</spam><input type="password" class="form-control form-control-sm ml-2" />
+                    </p>
+                </div>
+                <div class="form-row">
+                    <p class="col-4 ml-2">
+                        <spam class="ml-2">Perfil de acesso</spam><select class="form-control form-control form-control-sm ml-2">
+                            <option> </option>
+                        </select>
+                    </p>
+                    <p class="col-4 ml-3 pt-4">
+                        <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
+                    </p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
