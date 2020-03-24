@@ -66,7 +66,7 @@ using Maktub.Portal.Web.Models;
                 WriteLiteral("\r\n\r\n    ");
                 EndContext();
                 BeginContext(75, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "cf8149d6dfb0450e90865dc55f6f70fd", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "3a804fadd0ed4da280720bb7943ea003", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -130,7 +130,7 @@ using Maktub.Portal.Web.Models;
                 ");
             EndContext();
             BeginContext(1759, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "013c68c91d9f429c991fb9edca0a9f43", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78e6bafcf1ab4ad8aadb532b7a3076d4", async() => {
                 BeginContext(1767, 1, true);
                 WriteLiteral(" ");
                 EndContext();
@@ -150,7 +150,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("\n                </select>\n            </p>\n            <p class=\"col-5 ml-2\">\n                <spam class=\"ml-2\">Filial:</spam><select class=\"form-control form-control-sm ml-2\">\n                ");
             EndContext();
             BeginContext(1972, 17, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "545b19dcc979405fad46e56da5fff480", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "39eaeb718f434cfda1f7a1b535fc5304", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_TagHelpers_OptionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.TagHelpers.OptionTagHelper>();
@@ -167,7 +167,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("\n                </select>\n            </p>\n        </div>\n        <div class=\"form-row\">\n            <p class=\"col-5 ml-2\">\n                <spam class=\"ml-2\">Tipo de Serviço:</spam><select class=\"form-control form-control-sm ml-2\">\n                ");
             EndContext();
             BeginContext(2239, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3828b20e0bd148e9be75e4aa59eb4fec", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "543b8c40115f4896a213c963cf4cd46a", async() => {
                 BeginContext(2247, 1, true);
                 WriteLiteral(" ");
                 EndContext();
@@ -187,7 +187,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("\n                </select>\n            </p>\n            <p class=\"col-5 ml-2\">\n                <spam class=\"ml-2\">Técnico:</spam><select class=\"form-control form-control-sm ml-2\">\n                ");
             EndContext();
             BeginContext(2453, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0b7e3009437c40089c80405075e63d27", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "743f7325b49043f582499e272d8f31d9", async() => {
                 BeginContext(2461, 1, true);
                 WriteLiteral(" ");
                 EndContext();

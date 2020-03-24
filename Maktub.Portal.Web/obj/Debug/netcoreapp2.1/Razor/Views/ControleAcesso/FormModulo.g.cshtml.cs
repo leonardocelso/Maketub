@@ -66,7 +66,7 @@ using Maktub.Portal.Web.Models;
                 WriteLiteral("\r\n\r\n    ");
                 EndContext();
                 BeginContext(75, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "803be4f4082944b8b0ff3f0d0c4513ad", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "e47140ad19f94d84bc82dda8b962a083", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -119,7 +119,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("<div class=\"form-row\">\n            <p class=\"col-4\">\n                <spam class=\"ml-2\">Perfil de acesso:</spam><select class=\"form-control form-control-sm ml-2\">\n                                                                ");
             EndContext();
             BeginContext(1401, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "578b528fc33049589d55c7b419352655", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ebdab6c2d0b84efb9e6edd7a8603d1c8", async() => {
                 BeginContext(1409, 1, true);
                 WriteLiteral(" ");
                 EndContext();

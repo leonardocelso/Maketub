@@ -66,7 +66,7 @@ using Maktub.Portal.Web.Models;
                 WriteLiteral("\r\n\r\n    ");
                 EndContext();
                 BeginContext(75, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "9c01ff2e35e8479496bf7870dc429fa6", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0d2d305c3b1047648f29588fe53a7bb6", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -119,7 +119,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("    <div class=\"form-row\">\n            <p class=\"col-3\">\n                <spam class=\"ml-2\">Status de Atendimento:</spam><select class=\"form-control form-control-sm ml-2\">\n                                                                    ");
             EndContext();
             BeginContext(1414, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "21088f46c8e24604984eb5d02a929b3a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "14c0f5dcfc3a483cab190af49ff86909", async() => {
                 BeginContext(1422, 1, true);
                 WriteLiteral(" ");
                 EndContext();
@@ -144,7 +144,7 @@ using Maktub.Portal.Web.Models;
                                                                     ");
             EndContext();
             BeginContext(1735, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cf5c6f254b6b40adb9716800663838f5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "160545083b354f7db37a34fce14ba44f", async() => {
                 BeginContext(1743, 1, true);
                 WriteLiteral(" ");
                 EndContext();
@@ -169,7 +169,7 @@ using Maktub.Portal.Web.Models;
                                                                 ");
             EndContext();
             BeginContext(2050, 18, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4509aea3750e46e49535de962a1e83f6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fefd2fb4912e4fab9fb28ea14888a3c9", async() => {
                 BeginContext(2058, 1, true);
                 WriteLiteral(" ");
                 EndContext();
