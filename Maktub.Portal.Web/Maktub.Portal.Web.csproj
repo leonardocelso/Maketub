@@ -19,4 +19,8 @@
     <Content Remove="Views\ControleAcesso\Banco.cshtml" />
     <Content Remove="Views\ControleAcesso\FormTipoServico.cshtml" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Cadastro\" />
+    <Folder Include="Views\OrdemServico\" />
+  </ItemGroup>
 </Project>

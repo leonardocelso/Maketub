@@ -1,0 +1,83 @@
+﻿@{
+    ViewData["Title"] = "Novo Cliente";
+}
+
+@section styles {
+
+    <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
+    
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Novo Perfil</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+                        <li class="breadcrumb-item active">Novo Perfil</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+
+
+    <div>
+        <div class="form-row">
+            <p class="col-10">
+                <spam class="ml-2">Nome Tipo Perfil:</spam><input type="text" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-10">
+                <spam class="ml-2">Descrição:</spam><textarea class="form-control form-control-sm ml-2"></textarea>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-4">
+                <spam class="ml-2">Despesa:</spam><input type="number" class="form-control form-control-sm ml-2">
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-3">
+                <input type="checkbox" class="ml-2"><spam class="ml-2"> Cadastro Cliente</spam>
+            </p>
+            <p class="col-3">
+                <input type="checkbox" class="ml-2"><spam class="ml-2"> Cadastro Tecnico</spam>
+            </p>
+            <p class="col-4">
+                <input type="checkbox" class="ml-2"><spam class="ml-2"> Relatorios</spam>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-3">
+                <input type="checkbox" class="ml-2"><spam class="ml-2"> Cadastro Filial</spam>
+            </p>
+            <p class="col-3">
+                <input type="checkbox" class="ml-2"><spam class="ml-2"> Cadastro OS</spam>
+            </p>
+            <p class="col-4">
+                <input type="checkbox" class="ml-2"><spam class="ml-2"> Cadastro Tipo de Perfil</spam>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-3">
+                <input type="checkbox" class="ml-2"><spam class="ml-2"> Cadastro Bandeira</spam>
+            </p>
+            <p class="col-3">
+                <input type="checkbox" class="ml-2"><spam class="ml-2"> Cadastro Tipo de Serviço</spam>
+            </p>
+        </div>
+        <p class="col-10">
+            <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
+        </p>
+    </div>
+</div>
+

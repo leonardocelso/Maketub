@@ -1,0 +1,120 @@
+﻿@{
+    ViewData["Title"] = "Novo Cliente";
+}
+
+@section styles {
+
+    <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
+    
+}
+
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+        <div class="container-fluid">
+            <div class="row mb-2">
+                <div class="col-sm-6">
+                    <h1 class="m-0 text-dark">Nova Ordem De Serviço</h1>
+                </div><!-- /.col -->
+                <div class="col-sm-6">
+                    <ol class="breadcrumb float-sm-right">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item active">>Nova Ordem De Serviço</li>
+                    </ol>
+                </div><!-- /.col -->
+            </div><!-- /.row -->
+        </div><!-- /.container-fluid -->
+    </div>
+
+
+
+    <div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Número da OS:</spam><input type="number" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Data da Solicitação:</spam><input type="date" class="form-control form-control-sm ml-2"/>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Número do Atendimento:</spam><input type="number" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Cliente:</spam><select class="form-control form-control-sm ml-2">
+                <option> </option>
+                </select>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Filial:</spam><select class="form-control form-control-sm ml-2">
+                <option></option>
+                </select>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Tipo de Serviço:</spam><select class="form-control form-control-sm ml-2">
+                <option> </option>
+                </select>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Técnico:</spam><select class="form-control form-control-sm ml-2">
+                <option> </option>
+                </select>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-10 ml-2">
+                <spam class="ml-2">Descrição</spam><textarea class="form-control form-control-sm ml-2"></textarea>
+            </p>
+        </div>
+        <spam class="ml-2">Data do fechamento:</spam> 
+        <div class="form-row">
+            <p class="col-3 ml-2">
+                <input type="date" class="form-control form-control-sm"/>
+            </p>
+            <p class="col-3 ml-2">
+                <input type="time" class="form-control form-control-sm" placeholder="Hora de entrada"/>
+            </p>
+            <p class="col-4 ml-2">
+                <input type="time" class="form-control form-control-sm" placeholder="Hora de saída"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Qtde Horas:</spam><input type="time" class="form-control form-control-sm ml-2"/>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Qtde Horas:</spam><input type="time" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Valor a pagar:</spam><input type="number" class="form-control form-control-sm ml-2"/>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Valor a receber:</spam><input type="number" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Total a pagar:</spam><input type="number" class="form-control form-control-sm ml-2"/>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Total a receber:</spam><input type="number" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Dia da Semana:</spam><input type="text" class="form-control form-control form-control-sm ml-2">
+            </p>
+            <p class="col-5 ml-3 pt-4">
+                <input type="checkbox" name="A" value="A"> Ativo
+            </p>
+        </div>
+    </div>
+</div>

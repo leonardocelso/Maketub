@@ -17,7 +17,6 @@
         <script src="~/lib/bootstrap/dist/js/adminlte.min.js"></script>
         <script src="~/lib/jquery.vmap.js"></script>
         <script src="~/lib/jquery.vmap.brazil.js" charset="utf-8"></script>
-        <script src="~/lib/bootstrap/dist/js/bootstrap-switch.min.js"></script>
 
     </environment>
     <environment exclude="Development">
@@ -210,37 +209,32 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormPerfil" class="nav-link">
+                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="PerfilAcesso" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Perfil Acesso</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormModulo" class="nav-link">
+                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="Modulo" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Módulo</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormPagina" class="nav-link">
+                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="Pagina" class="nav-link">
                                         <i class="far fa-1x fa-circle nav-icon"></i>
                                         <p>Página</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormSubpagina" class="nav-link">
+                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="Subpagina" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Sub Página</p>
                                     </a>
-                                </li>
+                                </li>                               
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Função</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a href="#" class="nav-link">
+
+                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="PermissaoAcesso" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Permissão de Acesso</p>
                                     </a>
@@ -258,22 +252,31 @@
                                 </p>
                             </a>
                             <ul class="nav nav-treeview">
+                                <li class="nav-header">TECNICO</li>
+
+                                <li class="nav-item">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="Tecnico" class="nav-link">
+                                        <i class="far fa-circle nav-icon"></i>
+                                        <p>Tecnicos</p>
+                                    </a>
+                                </li>
+
                                 <!--DADOS BANCÁRIOS-->
                                 <li class="nav-header">DADOS BANCÁRIOS</li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormBanco" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="Banco" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Banco</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormDadosBanco" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="DadosBanco" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Dados Bancários</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormTipoConta" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="TipoConta" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Tipo de Conta</p>
                                     </a>
@@ -283,52 +286,52 @@
                                 <li class="nav-header">CLIENTES</li>
 
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormBandeira" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="Bandeira" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Bandeira</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="Cliente" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="Cliente" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Cliente</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="Filial" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="Filial" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Filial</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormGrupoEmpresarial" class="nav-link"> 
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="Parceiro" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Grupo</p>
+                                        <p>Parceiro</p>
                                     </a>
                                 </li>
                                 <li class="nav-header">SERVIÇO</li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormMaterial" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="Material" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Material</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormServico" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="Servico" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Serviço</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormServicoTecnico" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="ServicoTecnico" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Técnico</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="TipoServico" class="nav-link">
+                                    <a asp-area="" asp-controller="Cadastro" asp-action="TipoProjeto" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Tipo de Serviço</p>
+                                        <p>Tipo de Projeto</p>
                                     </a>
                                 </li>
                             </ul>
@@ -345,19 +348,19 @@
                             </a>
                             <ul class="nav nav-treeview">
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormOS1" class="nav-link">
+                                    <a asp-area="" asp-controller="OrdemServico" asp-action="OrdemServico" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Ordem de Serviço</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormMovimentacao" class="nav-link">
+                                    <a asp-area="" asp-controller="OrdemServico" asp-action="Movimentacao" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Movimentação de OS</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a asp-area="" asp-controller="ControleAcesso" asp-action="FormAdmtoOS" class="nav-link">
+                                    <a asp-area="" asp-controller="OrdemServico" asp-action="Adiantamento" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
                                         <p>Adiantamento de OS</p>
                                     </a>

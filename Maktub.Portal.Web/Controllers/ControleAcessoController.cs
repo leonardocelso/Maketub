@@ -18,12 +18,12 @@ namespace Maktub.Portal.Web.Controllers
             return View();
         }
 
-        public IActionResult Perfil()
+        public IActionResult PerfilAcesso()
         {
             return View();
         }
 
-        public IActionResult FormPerfil()
+        public IActionResult FormPerfilAcesso()
         {
             return View();
         }
@@ -38,6 +38,10 @@ namespace Maktub.Portal.Web.Controllers
             return View();
         }
 
+        public IActionResult Pagina()
+        {
+            return View();
+        }
         public IActionResult FormPagina()
         {
             return View();
@@ -47,91 +51,19 @@ namespace Maktub.Portal.Web.Controllers
         {
             return View();
         }
-
-        public IActionResult FormBanco()
+        public IActionResult Subpagina()
+        {
+            return View();
+        }  
+        
+        public IActionResult PermissaoAcesso()
+        {
+            return View();
+        }
+        public IActionResult FormPermissaoAcesso()
         {
             return View();
         }
 
-
-        public IActionResult FormDadosBanco()
-        {
-            return View();
-        }
-
-        public IActionResult FormTipoConta()
-        {
-            return View();
-        }
-
-        public IActionResult FormBandeira()
-        {
-            return View();
-        }
-
-        public IActionResult Cliente()
-        {
-            return View();
-        }
-
-        public IActionResult FormCliente()
-        {
-            return View();
-        }
-
-        public IActionResult Filial()
-        {
-            return View();
-        }
-
-        public IActionResult FormFilial()
-        {
-            return View();
-        }
-
-        public IActionResult FormGrupoEmpresarial()
-        {
-            return View();
-        }
-
-        public IActionResult FormMaterial()
-        {
-            return View();
-        }
-
-        public IActionResult FormServico()
-        {
-            return View();
-        }
-
-        public IActionResult FormServicoTecnico()
-        {
-            return View();
-        }
-
-        public IActionResult TipoServico()
-        {
-            return View();
-        }
-
-        public IActionResult FormTipoServico()
-        {
-            return View();
-        }
-
-        public IActionResult FormOS()
-        {
-            return View();
-        }
-
-        public IActionResult FormMovimentacao()
-        {
-            return View();
-        }
-
-        public IActionResult FormAdmtoOS()
-        {
-            return View();
-        }
     }
 }
