@@ -1,11 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "Novo Filial";
+    ViewData["Title"] = "Novo Cliente";
 }
 
 @section styles {
 
     <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
-
+    
 }
 
 <!-- Content Wrapper. Contains page content -->
@@ -29,198 +29,92 @@
 
 
 
-    <div class="content">
-        <div class="container-fluid">
-            <div class="card">
-                <div class="card-header">
-                    <h3 class="card-title">Informações</h3>
-                </div>
-                <!-- /.card-header -->
-                <!-- form start -->
-                <form role="form">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="form-group col-md-3">
-                                <label id="lblBairro">Bandeira</label>
-                                <select id="cboEstado" class="form-control form-control">
-                                    <option value="AC">Selecione</option>                                  
-                                </select>
-                            </div>
-                            <div class="form-group col-md-3 offset-1">
-                                <label id="lblBairro">Cliente</label>
-                                <select id="cboEstado" class="form-control form-control">
-                                    <option value="AC">Selecione</option>                                   
-                                </select>
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-5">
-                                <label id="lblLogradouro">Nome da Filial</label>
-                                <input type="text" class="form-control" id="txtLogradouro" placeholder="Insira o Nome da Filial">
-                            </div>
-                            <div class="form-group col-md-2">
-                                <label id="lblNumero">CNPJ</label>
-                                <input type="text" class="form-control" id="txtNumero" placeholder="Digite o CNPJ da Filial">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-5">
-                                <label id="lblLogradouro">Logradouro</label>
-                                <input type="text" class="form-control" id="txtLogradouro" placeholder="Insira o Logradouro">
-                            </div>
-                            <div class="form-group col-md-2">
-                                <label id="lblNumero">Razão Social</label>
-                                <input type="text" class="form-control" id="txtNumero" placeholder="Insira a Razão social">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-1">
-                                <label id="lblTelefoneFixo">Número</label>
-                                <input type="tel" class="form-control" id="txtTelefoneFixo" placeholder="">
-                            </div>
-                            <div class="form-group col-md-2">
-                                <label id="lblCelular">Complemento</label>
-                                <input type="tel" class="form-control" id="txtCelular" placeholder="Complemento">
-                            </div>
-                            <div class="form-group col-md-2">
-                                <label id="lblCPF">Cidade</label>
-                                <input type="text" class="form-control" id="txtCPF" placeholder="">
-                            </div>
-                            <div class="form-group col-md-2">
-                                <label id="lblBairro">Estado</label>
-                                <select id="cboEstado" class="form-control form-control">
-                                    <option value="AC">Selecione</option>
-                                    <option value="AC">Acre</option>
-                                    <option value="AL">Alagoas</option>
-                                    <option value="AP">Amapá</option>
-                                    <option value="AM">Amazonas</option>
-                                    <option value="BA">Bahia</option>
-                                    <option value="CE">Ceará</option>
-                                    <option value="DF">Distrito Federal</option>
-                                    <option value="ES">Espírito Santo</option>
-                                    <option value="GO">Goiás</option>
-                                    <option value="MA">Maranhão</option>
-                                    <option value="MT">Mato Grosso</option>
-                                    <option value="MS">Mato Grosso do Sul</option>
-                                    <option value="MG">Minas Gerais</option>
-                                    <option value="PA">Pará</option>
-                                    <option value="PB">Paraíba</option>
-                                    <option value="PR">Paraná</option>
-                                    <option value="PE">Pernambuco</option>
-                                    <option value="PI">Piauí</option>
-                                    <option value="RJ">Rio de Janeiro</option>
-                                    <option value="RN">Rio Grande do Norte</option>
-                                    <option value="RS">Rio Grande do Sul</option>
-                                    <option value="RO">Rondônia</option>
-                                    <option value="RR">Roraima</option>
-                                    <option value="SC">Santa Catarina</option>
-                                    <option value="SP">São Paulo</option>
-                                    <option value="SE">Sergipe</option>
-                                    <option value="TO">Tocantins</option>
-                                    <option value="EX">Estrangeiro</option>
-                                </select>
-                            </div>
-
-                        </div>
-
-                        <div class="row">
-                            <div class="form-group col-md-1">
-                                <label id="lblCEP">CEP</label>
-                                <input type="text" class="form-control" id="txtCep" placeholder="00000-000">
-                            </div>
-                            <div class="form-group col-md-1">
-                                <label id=""></label>
-                                <a href="#" class="form-control border-0"><span class="fas fa-shipping-fast" style="margin-left: -12px; line-height: 40px;"></span></a>
-                            </div>
-                            <div class="form-group col-md-2 offset-1">
-                                <label id="lblCelular">Telefone Fixo</label>
-                                <input type="password" class="form-control" id="txtCelular" placeholder="(99)99999-9999">
-                            </div>
-
-                            <div class="form-group col-md-2">
-                                <label id="lblCPF">Celular</label>
-                                <input type="password" class="form-control" id="txtCPF" placeholder="(99)99999-9999">
-                            </div>
-
-                        </div>
-                        <div class="row">
-                            <div class="form-group col-md-5">
-                                <label id="lblLogradouro">Nome do responsável</label>
-                                <input type="text" class="form-control" id="txtLogradouro" placeholder="Insira o Nome do Responsável">
-                            </div>
-                            <div class="form-group col-md-2">
-                                <label id="lblNumero">Telefone do responsável</label>
-                                <input type="text" class="form-control" id="txtNumero" placeholder="(99)99999-9999">
-                            </div>
-                        </div>
-                        <div class="row">
-
-
-                            <div class="form-group col-md-2">
-                                <label id="lblTelefoneFixo">Status</label>
-                                <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
-                                    <input type="checkbox" class="custom-control-input" id="customSwitch3">
-                                    <label class="custom-control-label" for="customSwitch3"><span id="switch-ativo">Ativo</span></label>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <p class="col-3 ml-2">
-                                <label id="lblTelefoneFixo">Horario de Inicio Semana</label>
-                                <input type="time" class="form-control form-control-sm ml-2" placeholder="" />
-                            </p>
-                            <p class="col-3 ml-2">
-                                <label id="lblTelefoneFixo">Horario de Inicio Sábado</label>
-                                <input type="time" class="form-control form-control-sm ml-2" placeholder="" />
-                            </p>
-                            <p class="col-4 ml-2">
-                                <label id="lblTelefoneFixo">Horario de Domingo</label>
-                                <input type="time" class="form-control form-control-sm ml-2" placeholder="" />
-                            </p>
-                        </div>
-                        <div class="form-row">
-                            <p class="col-3 ml-2">
-                                <label id="lblTelefoneFixo">Horario Final Semana</label>
-                                <input type="time" class="form-control form-control-sm ml-2" placeholder="" />
-                            </p>
-                            <p class="col-3 ml-2">
-                                <label id="lblTelefoneFixo">Horario Final Sábado</label>
-                                <input type="time" class="form-control form-control-sm ml-2" placeholder="" />
-                            </p>
-                            <p class="col-4 ml-2">
-                                <label id="lblTelefoneFixo">Horario Final Domingo</label>
-                                <input type="time" class="form-control form-control-sm ml-2" placeholder="" />
-                            </p>
-                        </div>
-                    </div>
-                    <!-- /.card-body -->
-
-                    <div class="card-footer col-md-12">
-                        <div class="col-md-10 text-center">
-                            <button type="submit" class="btn btn-primary">Salvar</button>
-                            <button type="button" class="btn btn-danger">Cancelar</button>
-                        </div>
-                    </div>
-                </form>
-            </div>
+    <div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Bandeira:</spam><select class="form-control form-control-sm ml-2">
+                <option> </option>
+                </select>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Cliente:</spam><select class="form-control form-control-sm ml-2">
+                <option> </option>
+                </select>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-10 ml-2">
+                <spam class="ml-2">Nome da filial:</spam><input type="text" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Número do CNPJ:</spam><input type="number" class="form-control form-control-sm ml-2">
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Razão Social:</spam><input type="text" class="form-control form-control-sm ml-2">
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-10 ml-2">
+                <spam class="ml-2">Logradouro:</spam><input type="text" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Número:</spam><input type="number" class="form-control form-control-sm ml-2"/>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Complemento:</spam><input type="text" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Cidade:</spam><input type="text" class="form-control form-control-sm ml-2"/>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Estado:</spam><select class="form-control form-control-sm ml-2">
+                <option> </option>
+                </select>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">CEP:</spam><input type="number" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Telefone Fixo:</spam><input type="tel" class="form-control form-control-sm ml-2"/>
+            </p>
+            <p class="col-5 ml-2">
+                <spam class="ml-2">Telefone Celular:</spam><input type="tel" class="form-control form-control-sm ml-2"/>
+            </p>
+        </div>
+        <p class="col-5 ml-3 pt-4">
+            <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
+        </p>
+        <div class="form-row">
+            <p class="col-3 ml-2">
+                <input type="text" class="form-control form-control-sm ml-2" placeholder="Horario de Inicio Semana"/>
+            </p>
+            <p class="col-3 ml-2">
+                <input type="text" class="form-control form-control-sm ml-2" placeholder="Horario de Inicio Sábado"/>
+            </p>
+            <p class="col-4 ml-2">
+               <input type="text" class="form-control form-control-sm ml-2" placeholder="Horario de Domingo"/>
+            </p>
+        </div>
+        <div class="form-row">
+            <p class="col-3 ml-2">
+                <input type="text" class="form-control form-control-sm ml-2" placeholder="Horario Final Semana"/>
+            </p>
+            <p class="col-3 ml-2">
+                <input type="text" class="form-control form-control-sm ml-2" placeholder="Horario Final Sábado"/>
+            </p>
+            <p class="col-4 ml-2">
+               <input type="text" class="form-control form-control-sm ml-2" placeholder="Horario Final Domingo"/>
+            </p>
         </div>
     </div>
 </div>
-@section scripts {
-
-    <script src="~/lib/jquery.dataTables.js"></script>
-    <script src="~/lib/dataTables.bootstrap4.js"></script>
-    <script>
-        $(document).ready(function () {
-
-            $("#customSwitch3").click(function () {
-                if ($("#customSwitch3").is(':checked')) {
-                    $("#switch-ativo").text("Ativo");
-                } else {
-                    $("#switch-ativo").text("Inativo");
-                }
-            });
-        });
-    </script>
-}
