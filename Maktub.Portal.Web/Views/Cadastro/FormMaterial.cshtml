@@ -1,11 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "Novo Cliente";
+    ViewData["Title"] = "Novo Material";
 }
 
 @section styles {
 
     <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
-    
+
 }
 
 <!-- Content Wrapper. Contains page content -->
@@ -29,19 +29,88 @@
 
 
 
-    <div>
-            <div class="form-row">
-                <p class="col-10">
-                    <spam class="ml-2">Material:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-                </p>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Informações</h3>
+                </div>
+
+                <form role="form">
+                    <div class="card-body">
+                        <label id="lblFuncao">Escolha os materias que serão usados</label>
+                        <div class="row">
+
+                            <select class="form-group col-md-3 " id='pre-selected-options' multiple='multiple'>
+                                <option value='elem_1' selected>Material 1</option>
+                                <option value='elem_2'>Material 2</option>
+                                <option value='elem_3'>Material 3</option>
+                                <option value='elem_4' selected>Material 4</option>
+                                ...
+                                <option value='elem_100'>elem 100</option>
+                            </select>
+                            <svg class="bi bi-arrow-right mt-4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L12.793 8l-2.647-2.646a.5.5 0 010-.708z" clip-rule="evenodd" />
+                                <path fill-rule="evenodd" d="M2 8a.5.5 0 01.5-.5H13a.5.5 0 010 1H2.5A.5.5 0 012 8z" clip-rule="evenodd" />
+                            </svg>
+                            <svg class="bi bi-arrow-right mt-4" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" d="M10.146 4.646a.5.5 0 01.708 0l3 3a.5.5 0 010 .708l-3 3a.5.5 0 01-.708-.708L12.793 8l-2.647-2.646a.5.5 0 010-.708z" clip-rule="evenodd" />
+                                <path fill-rule="evenodd" d="M2 8a.5.5 0 01.5-.5H13a.5.5 0 010 1H2.5A.5.5 0 012 8z" clip-rule="evenodd" />
+                            </svg>
+
+                            <select class="form-group col-md-3 " id='pre-selected-options' multiple='multiple' disabled>
+                                <option value='elem_1' selected>Material 1</option>
+                                <option value='elem_2'>Material 2</option>
+                                <option value='elem_2'>Material 4</option>
+                            </select>
+                        </div>
+
+                            <div class="row">
+                                <div class="form-group col-md-4 mt-3">
+                                    <label id="lblFuncao">Descrição</label>
+                                    <textarea class="form-control form-control-sm" placeholder="Descrição"></textarea>
+                                </div>
+
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblTelefoneFixo">Status</label>
+                                <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                                    <label class="custom-control-label" for="customSwitch3"><span id="switch-ativo">Ativo</span></label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+
+                        <div class="card-footer col-md-12">
+                            <div class="col-md-10 text-center">
+                                <button type="submit" class="btn btn-primary">Salvar</button>
+                                <button type="button" class="btn btn-danger">Cancelar</button>
+                            </div>
+                        </div>
+</form>
             </div>
-            <div class="form-row">
-                <p class="col-10">
-                   <spam class="ml-2">Descrição:</spam> <textarea class="form-control form-control-sm ml-2"></textarea>
-                </p>
-            </div>
-            <p class="col-10">
-                <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
-            </p>
+        </div>
     </div>
 </div>
+
+@section scripts {
+
+
+    <script src="~/lib/jquery.dataTables.js"></script>
+    <script src="~/lib/dataTables.bootstrap4.js"></script>
+    <script>
+                    $(document).ready(function () {
+
+                        $("#customSwitch3").click(function () {
+                            if ($("#customSwitch3").is(':checked')) {
+                                $("#switch-ativo").text("Ativo");
+                            } else {
+                                $("#switch-ativo").text("Inativo");
+                            }
+                        });
+                    });
+
+
+    </script>
+}

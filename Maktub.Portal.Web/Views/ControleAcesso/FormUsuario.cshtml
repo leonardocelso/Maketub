@@ -25,117 +25,186 @@
     </div>
     <div class="content">
         <div class="container-fluid">
-            <div class="card card-default">
+            <div class="card">
                 <div class="card-header">
                     <h3 class="card-title">Informações</h3>
                 </div>
-                <div class="form-row">
-                    <p class="col-2 ml-2">
-                        <spam class="ml-2">Nome:</spam><input type="text" class="form-control form-control-sm ml-2" />
-                    </p>
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">Sobrenome:</spam><input type="text" class="form-control form-control-sm ml-2" />
-                    </p>
-                    <p class="col-2 ml-2">
-                        <spam class="ml-2">Data de Nascimento:</spam><input type="date" class="form-control form-control-sm ml-2" />
-                    </p>
-                </div>
-                <div class="form-row">
-                    <p class="col-2 ml-2">
-                        <spam class="ml-2">CEP:</spam><input type="number" class="form-control form-control-sm ml-2" />
-                    </p>
-                    <p class="col-6 ml-2">
-                        <spam class="ml-2">Endereço:</spam><input type="text" class="form-control form-control-sm ml-2">
-                    </p>
-                </div>
-                <div class="form-row">
-                    <p class="col-2 ml-2">
-                        <spam class="ml-2">Número:</spam><input type="number" class="form-control form-control-sm ml-2" />
-                    </p>
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">Complemento:</spam><input type="text" class="form-control form-control-sm ml-2" />
-                    </p>
-                    <p class="col-2 ml-2">
-                        <spam class="ml-2">Estado:</spam>
-                        <select class="form-control form-control-sm ml-2">
-                            <option value="AC">Acre</option>
-                            <option value="AL">Alagoas</option>
-                            <option value="AP">Amapá</option>
-                            <option value="AM">Amazonas</option>
-                            <option value="BA">Bahia</option>
-                            <option value="CE">Ceará</option>
-                            <option value="DF">Distrito Federal</option>
-                            <option value="ES">Espírito Santo</option>
-                            <option value="GO">Goiás</option>
-                            <option value="MA">Maranhão</option>
-                            <option value="MT">Mato Grosso</option>
-                            <option value="MS">Mato Grosso do Sul</option>
-                            <option value="MG">Minas Gerais</option>
-                            <option value="PA">Pará</option>
-                            <option value="PB">Paraíba</option>
-                            <option value="PR">Paraná</option>
-                            <option value="PE">Pernambuco</option>
-                            <option value="PI">Piauí</option>
-                            <option value="RJ">Rio de Janeiro</option>
-                            <option value="RN">Rio Grande do Norte</option>
-                            <option value="RS">Rio Grande do Sul</option>
-                            <option value="RO">Rondônia</option>
-                            <option value="RR">Roraima</option>
-                            <option value="SC">Santa Catarina</option>
-                            <option value="SP">São Paulo</option>
-                            <option value="SE">Sergipe</option>
-                            <option value="TO">Tocantins</option>
-                            <option value="EX">Estrangeiro</option>
-                        </select>
-                    </p>
-                </div>
-                <div class="form-row">
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">Telefone Fixo:</spam><input type="tel" class="form-control form-control-sm ml-2" />
-                    </p>
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">Telefone Celular:</spam><input type="number" class="form-control form-control-sm ml-2" />
-                    </p>
-                </div>
-                <div class="form-row">
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">CPF:</spam><input type="number" class="form-control form-control-sm ml-2" />
-                    </p>
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">RG:</spam><input type="text" class="form-control form-control-sm ml-2" />
-                    </p>
-                </div>
-                <div class="form-row">
-                    <p class="col-2 ml-2">
-                        <spam class="ml-2">Gênero:</spam><select class="form-control form-control-sm ml-2">
-                            <option> </option>
-                            <option>Feminino</option>
-                            <option>Masculino</option>
-                        </select>
-                    </p>
-                    <p class="col-6 ml-2">
-                        <spam class="ml-2">E-mail:</spam><input type="text" class="form-control form-control-sm ml-2" />
-                    </p>
-                </div>
-                <div class="form-row">
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">Login:</spam><input type="text" class="form-control form-control-sm ml-2" />
-                    </p>
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">Senha:</spam><input type="password" class="form-control form-control-sm ml-2" />
-                    </p>
-                </div>
-                <div class="form-row">
-                    <p class="col-4 ml-2">
-                        <spam class="ml-2">Perfil de acesso</spam><select class="form-control form-control form-control-sm ml-2">
-                            <option> </option>
-                        </select>
-                    </p>
-                    <p class="col-4 ml-3 pt-4">
-                        <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
-                    </p>
-                </div>
+                <!-- /.card-header -->
+                <!-- form start -->
+                <form role="form">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label id="lblNome">Nome</label>
+                                <input type="text" class="form-control" id="txtNome" placeholder="Digite o Nome">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label id="lblSobrenome">Sobrenome</label>
+                                <input type="text" class="form-control" id="txtSobrenome" placeholder="Digite o Sobrenome">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblDataNasc">Data de Nascimento</label>
+                                <input type="date" class="form-control" id="txtDataNasc" placeholder="dd/mm/aaaa">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-1">
+                                <label id="lblCEP">CEP</label>
+                                <input type="text" class="form-control" id="txtCep" placeholder="00000-000">
+                            </div>
+                            <div class="form-group col-md-1">
+                                <label id=""></label>
+                                <a href="#" class="form-control border-0"><span class="fas fa-shipping-fast" style="margin-left: -12px; line-height: 40px;"></span></a>
+                            </div>
+                            <div class="form-group col-md-5">
+                                <label id="lblLogradouro">Endereço</label>
+                                <input type="text" class="form-control" id="txtLogradouro" placeholder="">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblNumero">Número</label>
+                                <input type="text" class="form-control" id="txtNumero" placeholder="Digite apenas números">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-2">
+                                <label id="lblComplemento">Complemento</label>
+                                <input type="text" class="form-control" id="txtComplemento" placeholder="Digite o Complemento">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblBairro">Bairro</label>
+                                <input type="text" class="form-control" id="txtBairro" placeholder="Digite o Bairro">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label id="lblCidade">Cidade</label>
+                                <input type="text" class="form-control" id="txtCidade" placeholder="Digite a Cidade">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblBairro">Estado</label>
+                                <select id="cboEstado" class="form-control form-control">
+                                    <option value="AC">Acre</option>
+                                    <option value="AL">Alagoas</option>
+                                    <option value="AP">Amapá</option>
+                                    <option value="AM">Amazonas</option>
+                                    <option value="BA">Bahia</option>
+                                    <option value="CE">Ceará</option>
+                                    <option value="DF">Distrito Federal</option>
+                                    <option value="ES">Espírito Santo</option>
+                                    <option value="GO">Goiás</option>
+                                    <option value="MA">Maranhão</option>
+                                    <option value="MT">Mato Grosso</option>
+                                    <option value="MS">Mato Grosso do Sul</option>
+                                    <option value="MG">Minas Gerais</option>
+                                    <option value="PA">Pará</option>
+                                    <option value="PB">Paraíba</option>
+                                    <option value="PR">Paraná</option>
+                                    <option value="PE">Pernambuco</option>
+                                    <option value="PI">Piauí</option>
+                                    <option value="RJ">Rio de Janeiro</option>
+                                    <option value="RN">Rio Grande do Norte</option>
+                                    <option value="RS">Rio Grande do Sul</option>
+                                    <option value="RO">Rondônia</option>
+                                    <option value="RR">Roraima</option>
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="SP">São Paulo</option>
+                                    <option value="SE">Sergipe</option>
+                                    <option value="TO">Tocantins</option>
+                                    <option value="EX">Estrangeiro</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-2">
+                                <label id="lblTelefoneFixo">Telefone Fixo</label>
+                                <input type="tel" class="form-control" id="txtTelefoneFixo" placeholder="(99)9999-9999">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblCelular">Celular</label>
+                                <input type="tel" class="form-control" id="txtCelular" placeholder="(99)99999-9999">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblCPF">CPF</label>
+                                <input type="text" class="form-control" id="txtCPF" placeholder="Digite apenas números">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblRG">RG</label>
+                                <input type="text" class="form-control" id="txtRG" placeholder="Digite o RG">
+                            </div>
+                            <div class="form-group col-md-1">
+                                <label id="lblGenero">Gênero</label>
+                                <select id="cboGenero" class="form-control form-control">
+                                    <option value="M">Masculino</option>
+                                    <option value="F">Feminino</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-md-2">
+                                <label id="lblTelefoneFixo">Login</label>
+                                <input type="tel" class="form-control" id="txtTelefoneFixo" placeholder="">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblCelular">Senha</label>
+                                <input type="password" class="form-control" id="txtCelular" placeholder="Digite uma senha com 8 dígitos">
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblCPF">Confirmar Senha</label>
+                                <input type="password" class="form-control" id="txtCPF" placeholder="Confirme a senha">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label id="lblTelefoneFixo">Email</label>
+                                <input type="tel" class="form-control" id="txtTelefoneFixo" placeholder="">
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="form-group col-md-3">
+                                <label id="lblTelefoneFixo">Perfil de Acesso</label>
+                                <select id="cboPerfil" class="form-control">
+                                    <option value="">Selecione...</option>
+                                    <option value="1">Administrador</option>
+                                    <option value="2">Diretoria</option>
+                                    <option value="3">Cliente</option>
+                                    <option value="4">Operaciona</option>
+                                    <option value="5">Técnico</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label id="lblTelefoneFixo">Status</label>
+                                <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
+                                    <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                                    <label class="custom-control-label" for="customSwitch3"><span id="switch-ativo">Ativo</span></label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer col-md-12">
+                        <div class="col-md-10 text-center">
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                            <button type="button" class="btn btn-danger">Cancelar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
 </div>
+@section scripts {
+
+    <script src="~/lib/jquery.dataTables.js"></script>
+    <script src="~/lib/dataTables.bootstrap4.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#customSwitch3").click(function () {
+                if ($("#customSwitch3").is(':checked')) {
+                    $("#switch-ativo").text("Ativo");
+                } else {
+                    $("#switch-ativo").text("Inativo");
+                }
+            });
+        });
+    </script>
+}

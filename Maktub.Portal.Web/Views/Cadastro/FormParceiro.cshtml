@@ -1,11 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "Novo Cliente";
+    ViewData["Title"] = "Novo Parceiro";
 }
 
 @section styles {
 
     <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
-    
+
 }
 
 <!-- Content Wrapper. Contains page content -->
@@ -29,15 +29,67 @@
 
 
 
-    <div>
-            <div class="form-row">
-                <p class="col-10">
-                    <spam class="ml-2">Nome do Parceiro:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-                </p>
+    <div class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Informações</h3>
+                </div>
+
+                <form role="form">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="form-group col-md-4">
+                                <label id="lblNomeModulo">Nome do Parceiro</label>
+                                <input type="text" class="form-control" id="txtNomePerfil" placeholder="Digite o Nome da Bandeira">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-4">
+                                <label id="lblFuncao">Descrição</label>
+                                <textarea class="form-control form-control-sm" placeholder="Descrição"></textarea>
+                            </div>
+
+                        </div>
+                        <div class="form-group col-md-2">
+                            <label id="lblTelefoneFixo">Status</label>
+                            <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                                <label class="custom-control-label" for="customSwitch3"><span id="switch-ativo">Ativo</span></label>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer col-md-12">
+                        <div class="col-md-10 text-center">
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                            <button type="button" class="btn btn-danger">Cancelar</button>
+                        </div>
+                    </div>
+                </form>
             </div>
-            <p class="col-10">
-                <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
-            </p>
+        </div>
     </div>
 </div>
+
+@section scripts {
+
+    <script src="~/lib/jquery.dataTables.js"></script>
+    <script src="~/lib/dataTables.bootstrap4.js"></script>
+    <script>
+                    $(document).ready(function () {
+
+                        $("#customSwitch3").click(function () {
+                            if ($("#customSwitch3").is(':checked')) {
+                                $("#switch-ativo").text("Ativo");
+                            } else {
+                                $("#switch-ativo").text("Inativo");
+                            }
+                        });
+                    });
+    </script>
+}
+
+
 
