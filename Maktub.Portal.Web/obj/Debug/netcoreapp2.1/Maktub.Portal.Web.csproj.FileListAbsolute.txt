@@ -302,7 +302,6 @@ C:\Users\leonardo\Desktop\Maketub-master\Maketub-master\Maktub.Portal.Web\obj\De
 C:\Users\leonardo\Desktop\Maketub-master\Maketub-master\Maktub.Portal.Web\obj\Debug\netcoreapp2.1\Razor\Views\ControleAcesso\FormPagina.cshtml.g.cs
 C:\Users\leonardo\Desktop\Maketub-master\Maketub-master\Maktub.Portal.Web\obj\Debug\netcoreapp2.1\Razor\Views\ControleAcesso\FormSubpagina.cshtml.g.cs
 C:\Users\leonardo\Desktop\Maketub-master\Maketub-master\Maktub.Portal.Web\obj\Debug\netcoreapp2.1\Razor\Views\ControleAcesso\FormUsuario.cshtml.g.cs
-C:\Users\leonardo\Desktop\Maketub-master\Maketub-master\Maktub.Portal.Web\obj\Debug\netcoreapp2.1\Razor\Views\ControleAcesso\TipoConta.cshtml.g.cs
 C:\Users\leonardo\Desktop\Maketub-master\Maketub-master\Maktub.Portal.Web\obj\Debug\netcoreapp2.1\Razor\Views\ControleAcesso\Usuario.cshtml.g.cs
 C:\Users\leonardo\Desktop\Maketub-master\Maketub-master\Maktub.Portal.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
 C:\Users\leonardo\Desktop\Maketub-master\Maketub-master\Maktub.Portal.Web\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs

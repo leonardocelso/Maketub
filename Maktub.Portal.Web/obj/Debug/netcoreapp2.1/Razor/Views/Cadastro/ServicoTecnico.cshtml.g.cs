@@ -78,7 +78,7 @@ using Maktub.Portal.Web.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(69, 64, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "73b7f11030d94280b0499c2a56847ac9", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "a73d07d915e5431889462361fbc6b0f3", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -97,7 +97,7 @@ using Maktub.Portal.Web.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(139, 75, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "db18c38a2d8c4f4aa35c42f16f1676e0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c78e54ca23b94dfabf2b951224f5336f", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -132,7 +132,7 @@ using Maktub.Portal.Web.Models;
                         <li class=""breadcrumb-item"">");
             EndContext();
             BeginContext(749, 64, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fac246e848224774a30c55913bbdb92b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c3403cc3115f493d84cbd1edfae8ceb2", async() => {
                 BeginContext(805, 4, true);
                 WriteLiteral("Home");
                 EndContext();
@@ -193,7 +193,7 @@ using Maktub.Portal.Web.Models;
                                         <div class=""badge badge-info"">");
             EndContext();
             BeginContext(2422, 161, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dd6394722f7f4764a419730ef9478a3a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d8847d9f98f64e7d842b15c717622304", async() => {
                 BeginContext(2530, 49, true);
                 WriteLiteral("Novo <span class=\"fas fa-file text-white\"></span>");
                 EndContext();
@@ -222,7 +222,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("</div>\r\n                                        <div class=\"badge badge-warning text-dark\">");
             EndContext();
             BeginContext(2674, 162, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "96bf3f266782430b8b9dd7c61d7c73f6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a9434fd06e54ce7b4d4b876967c98ae", async() => {
                 BeginContext(2782, 50, true);
                 WriteLiteral("Editar <span class=\"fas fa-edit text-dark\"></span>");
                 EndContext();
@@ -251,7 +251,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("</div>\r\n                                        <div class=\"badge badge-success\">");
             EndContext();
             BeginContext(2917, 181, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d0cb2a4f4c2a40ca948ba872d9231863", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8064716573974112b7240e953ec20834", async() => {
                 BeginContext(3025, 69, true);
                 WriteLiteral("Detalhes <span class=\"fas fa-info-circle class=\" text-white\"\"></span>");
                 EndContext();
@@ -289,7 +289,7 @@ using Maktub.Portal.Web.Models;
                                         <div class=""badge badge-info"">");
             EndContext();
             BeginContext(3559, 161, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc9b01e006ca4d609d1adc2bf295e944", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1403ec72680447695e7ad87a4253e13", async() => {
                 BeginContext(3667, 49, true);
                 WriteLiteral("Novo <span class=\"fas fa-file text-white\"></span>");
                 EndContext();
@@ -318,7 +318,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("</div>\r\n                                        <div class=\"badge badge-warning text-dark\">");
             EndContext();
             BeginContext(3811, 161, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e690eb6d7fe14080ad4b1ad90b48ed7a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3b0a7400247c4f889bef63b3ff64ebc2", async() => {
                 BeginContext(3918, 50, true);
                 WriteLiteral("Editar <span class=\"fas fa-edit text-dark\"></span>");
                 EndContext();
@@ -347,7 +347,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("</div>\r\n                                        <div class=\"badge badge-success\">");
             EndContext();
             BeginContext(4053, 181, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "74633d02b63b4065ab20add57e33f65b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4023bf1bdf1c49379139a5a00868969a", async() => {
                 BeginContext(4161, 69, true);
                 WriteLiteral("Detalhes <span class=\"fas fa-info-circle class=\" text-white\"\"></span>");
                 EndContext();
@@ -388,7 +388,7 @@ using Maktub.Portal.Web.Models;
                                         <div class=""badge badge-info"">");
             EndContext();
             BeginContext(4701, 161, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e45ca9bc794d4ee594c8a3713999942b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5d98cff710614604ac52065712f62c5e", async() => {
                 BeginContext(4809, 49, true);
                 WriteLiteral("Novo <span class=\"fas fa-file text-white\"></span>");
                 EndContext();
@@ -417,7 +417,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("</div>\r\n                                        <div class=\"badge badge-warning text-dark\">");
             EndContext();
             BeginContext(4953, 161, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3858eedfd708424a9e259b4dc1aaf45d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bb29378eed9f4fe5a58e00297a540c01", async() => {
                 BeginContext(5060, 50, true);
                 WriteLiteral("Editar <span class=\"fas fa-edit text-dark\"></span>");
                 EndContext();
@@ -446,7 +446,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("</div>\r\n                                        <div class=\"badge badge-success\">");
             EndContext();
             BeginContext(5195, 181, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a5a8fda9f4ab411183b386af7262a5f4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d5df170917a4a43b20fe296d92d7846", async() => {
                 BeginContext(5303, 69, true);
                 WriteLiteral("Detalhes <span class=\"fas fa-info-circle class=\" text-white\"\"></span>");
                 EndContext();
@@ -486,7 +486,7 @@ using Maktub.Portal.Web.Models;
                                         <div class=""badge badge-info"">");
             EndContext();
             BeginContext(5841, 161, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3891017e96e24a87bdefbdc5710db5a5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e1e89506bf6b4034847f862b11f19ab7", async() => {
                 BeginContext(5949, 49, true);
                 WriteLiteral("Novo <span class=\"fas fa-file text-white\"></span>");
                 EndContext();
@@ -515,7 +515,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("</div>\r\n                                        <div class=\"badge badge-warning text-dark\">");
             EndContext();
             BeginContext(6093, 161, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d2f6586b3aa54f99a85ee8e8717f4c63", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f497337bdb4d49f280499717b8f0a1e8", async() => {
                 BeginContext(6200, 50, true);
                 WriteLiteral("Editar <span class=\"fas fa-edit text-dark\"></span>");
                 EndContext();
@@ -544,7 +544,7 @@ using Maktub.Portal.Web.Models;
             WriteLiteral("</div>\r\n                                        <div class=\"badge badge-success\">");
             EndContext();
             BeginContext(6335, 181, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81ee04eaadb84ea7abdba8bde90287de", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a920b40b68644bdb1d6063acd04c239", async() => {
                 BeginContext(6443, 69, true);
                 WriteLiteral("Detalhes <span class=\"fas fa-info-circle class=\" text-white\"\"></span>");
                 EndContext();
@@ -597,7 +597,7 @@ using Maktub.Portal.Web.Models;
                 WriteLiteral("\r\n\r\n    ");
                 EndContext();
                 BeginContext(7032, 50, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "22a2a30b2b2245cf8dc1d6e54fd83668", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "56df4fb5cc9f4e9d90a0e64d41e6adfe", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -615,7 +615,7 @@ using Maktub.Portal.Web.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(7088, 54, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bcb2bb443880435c884748480e2f401d", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d0bf2ad454244b45b9f60527bbd26db8", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

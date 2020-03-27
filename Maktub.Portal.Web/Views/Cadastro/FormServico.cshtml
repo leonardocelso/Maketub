@@ -1,11 +1,11 @@
 ﻿@{
-    ViewData["Title"] = "Novo Cliente";
+    ViewData["Title"] = "Novo Serviço";
 }
 
 @section styles {
 
     <link rel="stylesheet" href="~/css/dataTables.bootstrap4.css" />
-    
+
 }
 
 <!-- Content Wrapper. Contains page content -->
@@ -27,36 +27,89 @@
         </div><!-- /.container-fluid -->
     </div>
 
+    <div class="content">
+        <div class="container-fluid">
+            <div class="card">
+                <div class="card-header">
+                    <h3 class="card-title">Informações</h3>
+                </div>
+
+                <form role="form">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label id="lblNome">Nome do Tipo de Serviço</label>
+                                <input type="text" class="form-control" id="txtNome" placeholder="Digite o Tipo de Serviço">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label id="lblNome">Receita</label>
+                                <input type="text" class="form-control" id="txtNome" placeholder="Digite a Receita">
+                            </div>
+
+                        </div>
+                        <div class="row">
 
 
-    <div>
-        <div class="form-row">
-            <p class="col-10 ml-2">
-                <spam class="ml-2">Nome Tipo Serviço:</spam><input type="text" class="form-control form-control-sm ml-2"/>
-            </p>
+                            <div class="form-group col-md-3">
+                                <label id="lblNumero">Despesa</label>
+                                <input type="text" class="form-control" id="txtNumero" placeholder="Digite a Despesa">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label id="lblComplemento">Horas</label>
+                                <input type="text" class="form-control" id="txtComplemento" placeholder="--:-- --">
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                        </div>
+                        <div class="row">
+                            <div class="form-group col-md-3">
+                                <label id="lblTelefoneFixo">Valor cobrado</label>
+                                <input type="tel" class="form-control" id="txtTelefoneFixo" placeholder="Digite o Valor Cobrado">
+                            </div>
+                            <div class="form-group col-md-3">
+                                <label id="lblCelular">Valor Hora Técnico</label>
+                                <input type="tel" class="form-control" id="txtCelular" placeholder="Valor Hora Técnico">
+                            </div>
+                            <div class="form-group col-md-2">
+
+
+                            </div>
+                        </div>
+                        <label id="lblTelefoneFixo">Status</label>
+                        <div class="custom-control custom-switch custom-switch-off-danger custom-switch-on-success">
+                            <input type="checkbox" class="custom-control-input" id="customSwitch3">
+                            <label class="custom-control-label" for="customSwitch3"><span id="switch-ativo">Ativo</span></label>
+                        </div>
+                    </div>
+                    <!-- /.card-body -->
+
+                    <div class="card-footer col-md-12">
+                        <div class="col-md-10 text-center">
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                            <button type="button" class="btn btn-danger">Cancelar</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
         </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Receita:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Despesa:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Horas:</spam><input type="time" class="form-control form-control-sm ml-2">
-        </div>
-        <div class="form-row">
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Valor Cobrado:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-            </p>
-            <p class="col-5 ml-2">
-                <spam class="ml-2">Valor Hora Técnico:</spam><input type="number" class="form-control form-control-sm ml-2"/>
-            </p>
-        </div>
-        <p class="col-10 ml-2">
-            <input type="checkbox" name="A" value="A"><spam class="ml-2"> Ativo</spam>
-        </p>
     </div>
 </div>
+
+@section scripts {
+
+    <script src="~/lib/jquery.dataTables.js"></script>
+    <script src="~/lib/dataTables.bootstrap4.js"></script>
+    <script>
+        $(document).ready(function () {
+
+            $("#customSwitch3").click(function () {
+                if ($("#customSwitch3").is(':checked')) {
+                    $("#switch-ativo").text("Ativo");
+                } else {
+                    $("#switch-ativo").text("Inativo");
+                }
+            });
+        });
+    </script>
+}
